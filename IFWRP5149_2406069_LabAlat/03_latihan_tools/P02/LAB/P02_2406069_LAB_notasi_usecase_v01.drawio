@@ -1,0 +1,34 @@
+<mxfile host="65bd71144e">
+    <diagram id="Wsh2P6mbnNMDg8GYh1zi" name="Page-1">
+        <mxGraphModel dx="1056" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2yiWQjHSXzk4Vn1Sg6yS-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=190;height=50;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Verdana&quot;&gt;Sistem Informasi Peminjaman dan pengembalian peralatan Laboratorium Kampus&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="470" width="455" x="280" y="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yiWQjHSXzk4Vn1Sg6yS-11" parent="2yiWQjHSXzk4Vn1Sg6yS-1" style="ellipse;html=1;whiteSpace=wrap;rounded=0;" value="Lihat&amp;nbsp;&lt;div&gt;ketersediaan&lt;/div&gt;&lt;div&gt;peralatan&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="65" width="110" x="50" y="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yiWQjHSXzk4Vn1Sg6yS-12" parent="2yiWQjHSXzk4Vn1Sg6yS-1" style="ellipse;html=1;whiteSpace=wrap;rounded=0;" value="Kelola data peralatan" vertex="1">
+                    <mxGeometry height="60" width="110" x="310" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yiWQjHSXzk4Vn1Sg6yS-15" edge="1" parent="1" source="2yiWQjHSXzk4Vn1Sg6yS-2" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" target="2yiWQjHSXzk4Vn1Sg6yS-11" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yiWQjHSXzk4Vn1Sg6yS-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;rounded=0;" value="Mahasiswa" vertex="1">
+                    <mxGeometry height="60" width="30" x="210" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yiWQjHSXzk4Vn1Sg6yS-16" edge="1" parent="1" source="2yiWQjHSXzk4Vn1Sg6yS-10" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" target="2yiWQjHSXzk4Vn1Sg6yS-12" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yiWQjHSXzk4Vn1Sg6yS-10" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;rounded=0;" value="Petugas&amp;nbsp;&lt;div&gt;Laboran&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="30" x="780" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="2yiWQjHSXzk4Vn1Sg6yS-19" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" vertex="1">
+                    <mxGeometry height="40" width="30" x="430" y="490" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

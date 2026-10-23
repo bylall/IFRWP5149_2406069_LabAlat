@@ -1,5 +1,9 @@
-| No. | Temuan | Perbaikan yang Diperlukan | Alasan |
-| --- | --- | --- | --- |
-| 1 | Aktor Mahasiswa diletakkan di dalam batas sistem[cite: 14] | Memindahkan aktor Mahasiswa ke luar batas sistem[cite: 8, 15] | Aktor merupakan entitas luar yang berinteraksi dengan sistem, sehingga posisinya wajib diletakkan di luar batas sistem[cite: 8]. |
-| 2 | Fungsi Lihat jadwal kuliah digambar sebagai kotak biasa[cite: 14] | Mengubah bentuk fungsi Lihat jadwal kuliah dari kotak menjadi elips[cite: 5, 15] | Notasi standar untuk menggambarkan fungsionalitas (*use case*) dalam UML adalah bentuk elips[cite: 5, 8]. |
-| 3 | Aktor Mahasiswa dihubungkan dengan fungsi Kelola jadwal kuliah[cite: 14] | Menghubungkan Mahasiswa ke fungsi Lihat jadwal kuliah dan Admin akademik ke Kelola jadwal kuliah[cite: 14, 15] | Garis asosiasi menunjukkan partisipasi dan hak akses peran sesuai skenario, di mana Mahasiswa tidak berhak mengelola jadwal[cite: 8, 14]. |
+Mahasiswa melihat jadwal kuliah melalui Sistem Informasi Akademik.
+Admin akademik mengelola jadwal kuliah. Dalam latihan ini, mahasiswa
+tidak mengelola jadwal dan admin tidak dihubungkan dengan fungsi
+melihat jadwal sebagai pengguna mahasiswa.
+
+• Aktor Mahasiswa diletakkan di dalam batas sistem.
+• Fungsi Lihat jadwal kuliah digambar sebagai kotak biasa.
+• Aktor Mahasiswa dihubungkan dengan Kelola jadwal kuliah.
+• Identitas diagram menggunakan judul sistem laboratorium
