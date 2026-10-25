@@ -1,0 +1,6 @@
+| No | Temuan | Perbaikan yang Diperlukan | Alasan |
+|:--:|---|---|---|
+| 1 | Arah panah relasi `«include»` terbalik dari Validasi KRS ke Ajukan KRS. | Ubah arah panah putus-putus agar mengarah dari Ajukan KRS ke Validasi KRS. | Relasi `«include»` mengharuskan *use case* dasar menunjuk ke *use case* yang disertakan. |
+| 2 | Arah panah relasi `«extend»` terbalik dari Ajukan KRS ke Unduh bukti. | Ubah arah panah putus-putus agar mengarah dari Unduh bukti ke Ajukan KRS. | Relasi `«extend»` mengharuskan *use case* tambahan menunjuk ke *use case* dasar yang diperluas. |
+| 3 | Aktor Mahasiswa dihubungkan langsung dengan Validasi KRS. | Hapus garis penghubung langsung antara aktor Mahasiswa dengan Validasi KRS. | Validasi berjalan otomatis oleh sistem (`«include»`), bukan diinisiasi langsung oleh aktor. |
+| 4 | Proses persetujuan KRS dihubungkan dengan Admin akademik. | Ubah penghubung agar Proses persetujuan KRS hanya terhubung dengan Dosen wali. | Sesuai skenario, hanya Dosen wali yang memiliki wewenang untuk menyetujui KRS. |

@@ -1,4 +1,4 @@
-|ID     |                                          Kebutuhan tugas                                          |
+|  ID   |                                          Kebutuhan tugas                                          |
 |-------|---------------------------------------------------------------------------------------------------|
 |SIA-R07|         Mahasiswa dan Dosen, sebagai Civitas Akademika, dapat melihat kalender akademik.          |
 |SIA-R08|                      Dosen dapat menginput nilai mata kuliah yang diampunya.                      |
