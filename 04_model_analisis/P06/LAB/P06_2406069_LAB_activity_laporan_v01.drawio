@@ -1,0 +1,86 @@
+<mxfile host="65bd71144e">
+    <diagram id="Kl6XkNsFx5DxifqcPJtH" name="Page-1">
+        <mxGraphModel dx="2147" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-1" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Kepala Laboran" vertex="1">
+                    <mxGeometry height="660" width="240" x="145" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-23" edge="1" parent="s0yCauOlWJlXNQ3oca2v-1" source="s0yCauOlWJlXNQ3oca2v-3" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" target="s0yCauOlWJlXNQ3oca2v-4" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-3" parent="s0yCauOlWJlXNQ3oca2v-1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="105" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-4" parent="s0yCauOlWJlXNQ3oca2v-1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Membuka fungsi laporan peminjaman" vertex="1">
+                    <mxGeometry height="40" width="200" x="20" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-6" parent="s0yCauOlWJlXNQ3oca2v-1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="memilih periode laporan" vertex="1">
+                    <mxGeometry height="40" width="200" x="20" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-2" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Sistem" vertex="1">
+                    <mxGeometry height="660" width="320" x="385" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-5" parent="s0yCauOlWJlXNQ3oca2v-2" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Menampilkan daftar periode laporan" vertex="1">
+                    <mxGeometry height="40" width="200" x="60" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-12" edge="1" parent="s0yCauOlWJlXNQ3oca2v-2" source="s0yCauOlWJlXNQ3oca2v-7" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" target="s0yCauOlWJlXNQ3oca2v-11" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-7" parent="s0yCauOlWJlXNQ3oca2v-2" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="menmpilkan kaporan peminjaman periode yang dipilih" vertex="1">
+                    <mxGeometry height="40" width="200" x="60" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-18" edge="1" parent="s0yCauOlWJlXNQ3oca2v-2" source="s0yCauOlWJlXNQ3oca2v-8" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" target="s0yCauOlWJlXNQ3oca2v-10" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-8" parent="s0yCauOlWJlXNQ3oca2v-2" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="Menampilkan pesan tidak ada data peminjaman pada periode tersebut" vertex="1">
+                    <mxGeometry height="40" width="200" x="60" y="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-9" parent="s0yCauOlWJlXNQ3oca2v-2" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="145" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-19" edge="1" parent="s0yCauOlWJlXNQ3oca2v-2" source="s0yCauOlWJlXNQ3oca2v-10" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" target="s0yCauOlWJlXNQ3oca2v-9" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-10" parent="s0yCauOlWJlXNQ3oca2v-2" style="rhombus;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="145" y="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-13" edge="1" parent="s0yCauOlWJlXNQ3oca2v-2" source="s0yCauOlWJlXNQ3oca2v-11" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" target="s0yCauOlWJlXNQ3oca2v-8" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-14" connectable="0" parent="s0yCauOlWJlXNQ3oca2v-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="[tidak ada]" vertex="1">
+                    <mxGeometry relative="1" x="-0.12" y="-1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-15" edge="1" parent="s0yCauOlWJlXNQ3oca2v-2" source="s0yCauOlWJlXNQ3oca2v-11" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="s0yCauOlWJlXNQ3oca2v-10">
+                    <mxGeometry relative="1" x="-0.489" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="290" y="390"/>
+                            <mxPoint x="290" y="555"/>
+                        </Array>
+                        <mxPoint x="210" y="640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-17" connectable="0" parent="s0yCauOlWJlXNQ3oca2v-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="[Ada]" vertex="1">
+                    <mxGeometry relative="1" x="-0.4707" y="3" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-11" parent="s0yCauOlWJlXNQ3oca2v-2" style="rhombus;verticalAlign=middle;" value="Ada data peminjaman" vertex="1">
+                    <mxGeometry height="60" width="162.5" x="78.75" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-20" edge="1" parent="1" source="s0yCauOlWJlXNQ3oca2v-4" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;endArrow=block;endFill=1;" target="s0yCauOlWJlXNQ3oca2v-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-21" edge="1" parent="1" source="s0yCauOlWJlXNQ3oca2v-5" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;endArrow=block;endFill=1;" target="s0yCauOlWJlXNQ3oca2v-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s0yCauOlWJlXNQ3oca2v-22" edge="1" parent="1" source="s0yCauOlWJlXNQ3oca2v-6" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=0;endArrow=block;endFill=1;" target="s0yCauOlWJlXNQ3oca2v-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
